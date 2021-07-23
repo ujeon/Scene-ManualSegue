@@ -15,5 +15,8 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func wind(_ sender: Any) {
+        self.performSegue(withIdentifier: "ManualWind", sender: self)
+    }
 }
 
